@@ -26,7 +26,7 @@ module('Acceptance | super rentals', function(hooks) {
     assert.dom('.jumbo a.button').hasText('Contact Us');
     await click('.jumbo a.button');
 
-    assert.equal(currentURL(), '/getting-in-touch');
+    assert.equal(currentURL(), '/contact');
   });
 
   test('visiting /contact', async function(assert) {
